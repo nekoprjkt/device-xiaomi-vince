@@ -23,7 +23,7 @@ allow qti_init_shell vfat:dir { open read search };
 allow qti_init_shell vfat:file { getattr open read };
 
 # Allow watermark scale factor to write
-allow qti_init_shell proc_watermark_scale_factor:file { open write };
+allow qti_init_shell proc_watermark_scale_factor:file rw_file_perms;
 
 # Allow adjust page_cluster setting
 allow qti_init_shell proc_page_cluster:file { open write };

@@ -250,6 +250,7 @@ ro.vendor.qti.va_odm.support=1
 
 # Radio/Telephony
 PRODUCT_VENDOR_PROPERTIES += \
+persist.sys.radio.force_lte_ca=true \
 persist.dbg.volte_avail_ovr=1 \
 persist.dbg.vt_avail_ovr=1 \
 persist.dbg.wfc_avail_ovr=1 \

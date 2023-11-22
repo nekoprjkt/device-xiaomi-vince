@@ -162,7 +162,6 @@ on early-boot
     write /dev/ipa 1
 
 on boot
-    chown system system /sys/kernel/hbtp/display_pwr
 
     # Add a cpuset for the camera daemon
     mkdir /dev/cpuset/camera-daemon

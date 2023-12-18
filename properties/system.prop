@@ -21,6 +21,8 @@ vidc.enc.dcvs.extra-buff-count=2
 # Display/Graphics
 persist.hwc.enable_vds=1
 persist.hwc.mdpcomp.enable=true
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
 persist.hwc.ptor.enable=true
 sdm.debug.disable_skip_validate=1
 

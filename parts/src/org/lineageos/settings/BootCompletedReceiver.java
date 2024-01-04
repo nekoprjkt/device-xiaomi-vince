@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import org.lineageos.settings.doze.DozeUtils;
+import org.lineageos.settings.dolby.DolbyUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -34,6 +35,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (DozeUtils.isDozeEnabled(context) && DozeUtils.sensorsEnabled(context)) {
             if (DEBUG) Log.d(TAG, "Starting Doze service");
             DozeUtils.startService(context);
-        }
+	    DolbyUtils.getInstance(context);
+	}
     }
 }

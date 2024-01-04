@@ -92,6 +92,12 @@ function blob_fixup() {
 	vendor/lib/libmmcamera_ppeiscore.so)
 	    "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
 	;;
+	vendor/lib64/libdlbdsservice.so | vendor/lib/libstagefright_soft_ac4dec.s>
+            "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libsta>
+        ;;
+        vendor/etc/dolby/dax-default.xml)
+            sed -i "/volume-leveler-enable/ s/true/false/g" "${2}"
+        ;;
 	vendor/lib/libmmcamera2_iface_modules.so)
 	    # Always set 0 (Off) as CDS mode in iface_util_set_cds_mode
 	    sed -i -e 's|\x1d\xb3\x20\x68|\x1d\xb3\x00\x20|g' "${2}"

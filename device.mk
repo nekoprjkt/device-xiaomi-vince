@@ -171,7 +171,8 @@ PRODUCT_PACKAGES += \
 
 # Camera app (GrapheneOS)
 PRODUCT_PACKAGES += \
-    Camera
+    Camera \
+    GalleryGo
 
 # Consumerir
 PRODUCT_PACKAGES += \

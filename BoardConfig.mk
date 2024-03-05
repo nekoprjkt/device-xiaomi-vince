@@ -53,6 +53,13 @@ BUILD_BROKEN_USES_SOONG_PYTHON2_MODULES := true
 ALLOW_MISSING_DEPENDENCIES := true
 RELAX_USES_LIBRARY_CHECK := true
 
+# Device properties
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_EXT_PROP := $(DEVICE_PATH)/system_ext.prop
+TARGET_ODM_PROP := $(DEVICE_PATH)/odm.prop
+TARGET_PRODUCT_PROP := $(DEVICE_PATH)/product.prop
+TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000 loop.max_part=16 androidboot.usbconfigfs=true

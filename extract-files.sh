@@ -86,6 +86,9 @@ function blob_fixup() {
 	vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so)
 	    "${PATCHELF_0_8}" --remove-needed "libprotobuf-cpp-lite.so" "${2}"
 	;;
+	vendor/bin/pm-service)
+            grep -q "libutils-v33.so" "${2}" || "${PATCHELF}" --add-needed "libutils-v33.so" "${2}"
+	;;
 	vendor/lib/libmmcamera_ppeiscore.so)
 	    "${PATCHELF}" --add-needed "libui_shim.so" "${2}"
 	;;

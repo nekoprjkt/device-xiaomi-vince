@@ -28,20 +28,24 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Dolby
 $(call inherit-product, vendor/dolby/ds/dolby-product.mk)
 
-# Inherit some common Horizondroid stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Afterlife-OS stuff.
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
-# Horizon flags
+# Afterlife flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_BOOT_ANIMATION_RES := 720
-HORIZON_MAINTAINER := AL
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_BUILD_VIMUSIC := true
+AFTERLIFE_GAPPS := true
+AFTERLIFE_CORE := true
+AFTERLIFE_MAINTAINER := AL
+USE_PIXEL_CHARGING := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
+AFTERLIFE_EXTRA := true
+BUILD_GMAIL := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := aosp_vince
+PRODUCT_NAME := afterlife_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi

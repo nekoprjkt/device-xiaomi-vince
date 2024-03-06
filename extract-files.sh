@@ -100,6 +100,11 @@ function blob_fixup() {
 	;;
 	esac
 
+# For all ELF files
+	    if [[ "${1}" =~ ^.*(\.so|\/bin\/.*)$ ]]; then
+	        "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
+	    fi
+
 }
 
 DEVICE_BLOB_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary

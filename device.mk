@@ -458,7 +458,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libgui_vendor \
     libstdc++ \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # VNDK protobuff
 PRODUCT_COPY_FILES += \

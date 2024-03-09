@@ -87,14 +87,12 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
-
-    // Set default bluetooth device name
+    property_override("ro.product.brand", "Xiaomi");
+    property_override("ro.product.manufacturer", "Xiaomi");
+    property_override("ro.product.device", "vince");
+    property_override("ro.product.marketname", "Redmi 5 Plus");
     property_override("bluetooth.device.default_name", "Redmi 5 Plus");
-
-    // Override ro.control_privapp_permissions
     property_override("ro.control_privapp_permissions", "log");
-
-    // Override dalvik minidebuginfo generation
     property_override("dalvik.vm.minidebuginfo", "false");
     property_override("dalvik.vm.dex2oat-minidebuginfo", "false");
 

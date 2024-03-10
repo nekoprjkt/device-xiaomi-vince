@@ -68,42 +68,6 @@ persist.sys.binary_xml=false
 # Tcp
 net.tcp.2g_init_rwnd=10
 
-# Touch
-ro.sf.delayedtouches=0
-touch.orientationAware=1
-SurfaceOrientation=auto
-touch.size.calibration=auto
-touch.size.scale=auto
-touch.size.isSummed=1
-persist.device_config.runtime_native.usap_pool_enabled=true
-touch.orientation.calibration=auto
-touch.distance.calibration=auto
-touch.deviceType=auto
-touch.distance.scale=auto
-touch.coverage.calibration=octagram
-touch.pressure.scale=auto
-touch.gesturemode=spots
-MultitouchMinDistance=auto
-MultitouchSettleInterval=0ms
-TapInterval=0ms
-QuietInterval=0ms
-MovementSpeedRatio=auto
-TapSlop=0px
-persist.dev.pm.dyn_samplingrate=9999999999999999999999999999
-touch.pressure.calibration=auto
-scroll.accelerated.hw=true
-persist.sys.ui.hwframes=9999999999999999999999999999
-persist.sys.force_high_end_gfx=1
-view.scroll_friction=auto
-ro.min_pointer_dur=auto
-ro.sf.disable_smooth_effect=true
-ro.product.multi_touch_enabled=true
-ro.product.max_num_touch=auto
-ro.window.animation.scale=0.88
-ro.transition.animation.scale=0.88
-view.touch_slop=0dp
-windowsmgr.maxeventspersec=9999999999999999999999999999
-
 # Watchdog
 PRODUCT_SYSTEM_PROPERTIES +=
 ro.hw_timeout_multiplier=3

@@ -1058,6 +1058,9 @@ vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da28
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|a0603a5c46e8e67f78bdb42f2b246ecc6a37cecd
 vendor/radio/qcril_database/qcril.db|cfdebf667eb5bc293a72a3478053214adf8f0a59
 
+# Radio - from Redmi/sweet_eea2/sweet:12/RKQ1.210614.002/V14.0.1.0.SHGEUXM:user/release-keys
+vendor/lib64/deviceInfoServiceModule.so|d9c829e17f043facc78d142c20a644a37261f777
+
 # QC RIL - from LA.UM.9.6.3.r1-04400-89xx.0
 vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
 vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060

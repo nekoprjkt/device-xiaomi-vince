@@ -199,3 +199,5 @@ persist.log.tag.ContrastColorUtil=S
 persist.log.tag.ConstraintSet=S
 persist.log.tag.ProcStatsManager=S
 persist.log.tag.ExperimentPackageManage=S
+persist.log.tag.Gralloc3=S
+persist.log.tag.Gralloc4=S

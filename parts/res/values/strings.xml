@@ -84,7 +84,4 @@
 
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac sound</string>
-
-    <!-- Dolby -->
-    <string name="dolby">Dolby Atmos™</string>
 </resources>

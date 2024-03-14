@@ -28,5 +28,6 @@ vendor.bluetooth.soc				u:object_r:vendor_bluetooth_prop:s0
 ro.hardware.chipname		    u:object_r:exported_default_prop:s0
 
 ro.alarm_boot                   u:object_r:vendor_alarm_boot_prop:s0
+persist.audio.dirac             u:object_r:dirac_prop:s0
 persist.net.doxlat              u:object_r:vendor_xlat_prop:s0
 wifi.active.interface           u:object_r:wifi_prop:s0

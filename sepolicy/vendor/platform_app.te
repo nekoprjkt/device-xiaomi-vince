@@ -2,6 +2,10 @@ allow platform_app system_app_data_file:dir getattr;
 allow platform_app sysfs_fps:file { getattr open read };
 allow platform_app sysfs_graphics:dir search;
 
+# Dolby
+allow platform_app hal_dms_hwservice:hwservice_manager find;
+allow platform_app hal_dms_default:binder { call transfer };
+
 # System Info
 allow platform_app sysfs_battery_supply:dir search;
 allow platform_app sysfs_battery_supply:file r_file_perms;

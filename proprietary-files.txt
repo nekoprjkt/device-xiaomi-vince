@@ -1145,22 +1145,22 @@ system_ext/lib64/lib-imsvideocodec.so|3fa5444a061dd5af35f924744dc6a73d535cedf6
 system_ext/lib64/lib-imsvtutils.so|6df6279955493da11860bb048db38f01ec05c2aa
 system_ext/lib64/libimscamera_jni.so|f6b7647cfe080baeed006c932b495ff94b5685a7
 
-# Sensors - from LA.UM.10.6.2.r1-01600-89xx.0
-vendor/bin/sensors.qti|2516ba2f6e1a85c1e9990e175bcb8e91dca0560e
-vendor/lib/libsensor1.so|f7f0bcc04cc2c8a77a58739b7a49fbe2e64745db
-vendor/lib/libsensor_reg.so|9218d3aaaffc9fbe86d827f31012c10759178561
-vendor/lib/libsensor_user_cal.so|b0320f083c9d9adba473c86802635f53102fb926
-vendor/lib/sensors.ssc.so|d03d3b00b797d0b472ffc3137894ee26ed26fb78
-vendor/lib64/libsensor1.so|0f1011ae733e6139daf2c5872352a186b690902b
-vendor/lib64/libsensor_reg.so|1b6099fd31075c80c57adce91159bd0507806a6d
-vendor/lib64/libsensor_user_cal.so|f6eccfce69bd08c01a0fa98e0a5b384a4f8179a1
-vendor/lib64/sensors.ssc.so|afd2405609765082ca61335f3253ca63126d153b
+# Sensors - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/bin/sensors.qti|d87eb74b701f9e047c8ed7deb5fcd43a5639572a
+vendor/lib/libsensor1.so|4c720827e086453d20223c0ef76f0bf5a52b6623
+vendor/lib/libsensor_reg.so|848f74306042a91eab6dc68723d27062dc6e8522
+vendor/lib/libsensor_user_cal.so|c2694930fd7991eb7d53174e00781546e2360a82
+vendor/lib/sensors.ssc.so|ab53946c1bf4d207bb1a48fa9da92ceb3fdf39c6
+vendor/lib64/libsensor1.so|ecd936e78d9ba35878cb0bfbff38289e8651ac8d
+vendor/lib64/libsensor_reg.so|4550e44b37ce57db92bb379e9c65ece68c802d1e
+vendor/lib64/libsensor_user_cal.so|9cd4a306c7d67a2248b1be89d4517ecd6c0fbbc2
+vendor/lib64/sensors.ssc.so|92f6c3da84c8790778b78b5dfa8593e12c940494
 
-# Sensors (Calibration) - from LA.UM.10.6.2.r1-01600-89xx.0
-system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|e338adca13d99937a0158876302784dc33c1821c
-system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|490f93d87fd47af45dc7c63fba7159a43caf81f8
-vendor/lib/sensor_calibrate.so|9b16366783727b174788f7669d1e898ae2591bd9
-vendor/lib64/sensor_calibrate.so|0dbe5468fb2d45613e9ce118dad506a97646a011
+# Sensors (Calibration) - from LA.UM.9.6.2.r1-03600-89xx.0
+system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|81934fd454fd30282ef1a8a90b7374317f6c42de
+system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|32257292ed8c5b2e2f905571b82bb26383a1a041
+vendor/lib/sensor_calibrate.so|b46cd4135ee0b28f02fd05bba339dbda7585fb1d
+vendor/lib64/sensor_calibrate.so|9d211108a8bff4a4dd4f005a2e690b92d8588bf2
 
 # Thermal - from Onclite PKQ1.181021.001/V10.2.5.0.PFLCNXM
 vendor/bin/thermal-engine|562035759ae60b3c5267a01293f1aeaa3f40c44b

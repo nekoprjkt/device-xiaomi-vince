@@ -84,10 +84,6 @@ vendor.audio.read.wsatz.type=true
 vendor.audio.feature.multi_voice_session.enable=true
 vendor.audio.feature.incall_music.enable=true
 
-# Audio (Dolby)
-persist.vendor.audio_fx.current=dolby
-ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1
-
 # Bluetooth
 vendor.qcom.bluetooth.soc=smd
 persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
@@ -116,7 +112,6 @@ persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # Media
 debug.stagefright.omx_default_rank=0
-debug.stagefright.omx_default_rank.sw-audio=16
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.audio.hw.aac.encoder=true
 vendor.vidc.debug.level=0

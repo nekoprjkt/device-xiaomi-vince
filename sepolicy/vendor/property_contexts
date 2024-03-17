@@ -15,9 +15,6 @@ camera.cpp.dumppreviewpayload   u:object_r:camera_prop:s0
 disable.cpp.                    u:object_r:camera_prop:s0
 service.bootanim.exit           u:object_r:camera_prop:s0
 
-# Dolby
-persist.vendor.dolby.loglevel   u:object_r:vendor_dolby_loglevel_prop:s0
-
 # Fingerprint
 sys.fp.goodix                   u:object_r:vendor_fp_prop:s0
 sys.fp.vendor                   u:object_r:vendor_fp_prop:s0

@@ -27,6 +27,9 @@ vendor.bluetooth.soc				u:object_r:vendor_bluetooth_prop:s0
 # Hardware
 ro.hardware.chipname		    u:object_r:exported_default_prop:s0
 
+# Fastbootd
+ro.fastbootd.available	u:object_r:exported_default_prop:s0
+
 ro.alarm_boot                   u:object_r:vendor_alarm_boot_prop:s0
 persist.net.doxlat              u:object_r:vendor_xlat_prop:s0
 wifi.active.interface           u:object_r:wifi_prop:s0

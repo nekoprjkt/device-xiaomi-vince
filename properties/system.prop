@@ -24,6 +24,9 @@ persist.hwc.mdpcomp.enable=true
 persist.hwc.ptor.enable=true
 sdm.debug.disable_skip_validate=1
 
+# fastbootd
+ro.fastbootd.available=true
+
 # Fingerprint
 persist.qfp=false
 
